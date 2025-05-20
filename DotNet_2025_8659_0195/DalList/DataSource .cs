@@ -11,11 +11,11 @@ namespace Dal
 
         internal class Config
         {
-            internal const int SaleMinCode = 1000;
-            internal const int ProductMinCode = 100;
+            internal const int NextSaleCode = 1000;
+            internal const int NextProductCode = 100;
 
-            private static int SaleIndex = SaleMinCode;
-            private static int ProductIndex = ProductMinCode;
+            private static int SaleIndex = NextSaleCode;
+            private static int ProductIndex = NextProductCode;
             public static int ProductCode { 
                 get {
                     return ProductIndex++; 

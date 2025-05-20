@@ -1,0 +1,1 @@
+26/03/2025 14:34:53	Program.Main:	The type initializer for 'Dal.CustomerImplementation' threw an exception.
