@@ -141,7 +141,7 @@ internal class ProductImplementation : IProduct
         catch (Exception ex)
         {
             throw ex;
-        }
+        }   
     }
 
     public void Update(Product item)
