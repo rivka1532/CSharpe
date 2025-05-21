@@ -48,3 +48,28 @@ Z:\B\גליס רבקה\C#\DotNet2025_8659_0195\CSharpe\DotNet_2025_8659_0195\UI\
 Z:\B\גליס רבקה\C#\DotNet2025_8659_0195\CSharpe\DotNet_2025_8659_0195\UI\obj\Debug\UI.pdb
 Z:\B\גליס רבקה\C#\DotNet2025_8659_0195\CSharpe\DotNet_2025_8659_0195\UI\obj\Debug\UI.genruntimeconfig.cache
 Z:\B\גליס רבקה\C#\DotNet2025_8659_0195\CSharpe\DotNet_2025_8659_0195\UI\obj\Debug\ref\UI.dll
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\bin\UI.exe
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\bin\UI.deps.json
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\bin\UI.runtimeconfig.json
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\bin\UI.dll
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\bin\UI.pdb
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\UI\obj\Debug\UI.csproj.AssemblyReference.cache
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\UI\obj\Debug\UI.CustomersMenu.resources
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\UI\obj\Debug\UI.Home.resources
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\UI\obj\Debug\UI.ManagerMenu.resources
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\UI\obj\Debug\UI.OrderForm.resources
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\UI\obj\Debug\UI.OrderToCustomer.resources
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\UI\obj\Debug\UI.ProductsMenu.resources
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\UI\obj\Debug\UI.SalesMenu.resources
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\UI\obj\Debug\UI.csproj.GenerateResource.cache
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\UI\obj\Debug\UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\UI\obj\Debug\UI.AssemblyInfoInputs.cache
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\UI\obj\Debug\UI.AssemblyInfo.cs
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\UI\obj\Debug\UI.sourcelink.json
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\UI\obj\Debug\UI.csproj.Up2Date
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\UI\obj\Debug\UI.dll
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\UI\obj\Debug\refint\UI.dll
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\UI\obj\Debug\UI.pdb
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\UI\obj\Debug\UI.genruntimeconfig.cache
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\UI\obj\Debug\ref\UI.dll

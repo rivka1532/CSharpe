@@ -40,3 +40,17 @@ Z:\B\גליס רבקה\C#\DotNet2025_8659_0195\CSharpe\DotNet_2025_8659_0195\BL\
 Z:\B\גליס רבקה\C#\DotNet2025_8659_0195\CSharpe\DotNet_2025_8659_0195\BL\obj\Debug\refint\BL.dll
 Z:\B\גליס רבקה\C#\DotNet2025_8659_0195\CSharpe\DotNet_2025_8659_0195\BL\obj\Debug\BL.pdb
 Z:\B\גליס רבקה\C#\DotNet2025_8659_0195\CSharpe\DotNet_2025_8659_0195\BL\obj\Debug\ref\BL.dll
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\bin\BL.deps.json
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\bin\BL.dll
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\bin\BL.pdb
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\BL\obj\Debug\BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\BL\obj\Debug\BL.AssemblyInfoInputs.cache
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\BL\obj\Debug\BL.AssemblyInfo.cs
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\BL\obj\Debug\BL.sourcelink.json
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\BL\obj\Debug\BL.csproj.Up2Date
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\BL\obj\Debug\BL.dll
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\BL\obj\Debug\refint\BL.dll
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\BL\obj\Debug\BL.pdb
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\BL\obj\Debug\ref\BL.dll
