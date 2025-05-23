@@ -56,11 +56,11 @@ internal class SaleImplementation : ISale
     {
         try
         {
-            if (!File.Exists(filePath))
+            if (File.Exists(filePath))
             {
                 if (Read(id) != null)
                 {
-                    saleXml.Elements().Single(s => s.Element(SALE_ID).Value.Equals(id)).Remove();
+                    saleXml.Elements().Single(s => int.Parse(s.Element(SALE_ID).Value) == (id)).Remove();
                 }
                 saleXml.Save(filePath);
             }

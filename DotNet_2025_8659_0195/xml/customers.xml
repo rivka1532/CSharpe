@@ -25,21 +25,9 @@
     <PhoneNumber />
   </Customer>
   <Customer>
-    <Id>222</Id>
-    <Name>ב</Name>
-    <Address />
-    <PhoneNumber />
-  </Customer>
-  <Customer>
     <Id>333</Id>
     <Name>ג</Name>
-    <Address />
-    <PhoneNumber />
-  </Customer>
-  <Customer>
-    <Id>444</Id>
-    <Name />
-    <Address />
+    <Address>מודיעין עילית</Address>
     <PhoneNumber />
   </Customer>
 </ArrayOfCustomer>

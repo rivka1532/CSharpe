@@ -71,6 +71,40 @@ namespace UI
 
         }
 
+        private void filterByPhone_TextChanged(object sender, EventArgs e)
+        {
+            string phoneToSearch = filterByPhone.Text.Trim();
+            try
+            {
+                List<Customer> customers = _bl.Customer.ReadAll();
+                var filtered = customers.Where(c => c.PhoneNumber.Contains(phoneToSearch)).ToList();
+                customersList.Items.Clear();
+                if (filtered.Count == 0 && !string.IsNullOrEmpty(phoneToSearch))
+                    customersList.Items.Add("לא נמצאו לקוחות.");
+                else
+                {
+                    foreach (var customer in filtered)
+                    {
+                        if (customer != null)
+                        {
+                            var customerDetails = customer.ToString() + "\n----------------------------";
+                            // פיצול למיתרים ואז הוספה לכל פריט ברשימה
+                            var customerLines = customerDetails.Split("\n");
+                            foreach (var line in customerLines)
+                            {
+                                customersList.Items.Add(line);
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             Customer c = new Customer(

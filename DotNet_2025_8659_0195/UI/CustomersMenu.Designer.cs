@@ -426,6 +426,7 @@
             filterByPhone.Name = "filterByPhone";
             filterByPhone.Size = new Size(110, 23);
             filterByPhone.TabIndex = 5;
+            filterByPhone.TextChanged += new System.EventHandler(this.filterByPhone_TextChanged);
             // 
             // label11
             // 

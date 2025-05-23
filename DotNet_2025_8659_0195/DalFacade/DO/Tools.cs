@@ -17,7 +17,7 @@ public static class Tools
         {
             if (File.Exists(filePath))
             {
-                using (FileStream fs = new FileStream(filePath, FileMode.OpenOrCreate, FileAccess.ReadWrite))
+                using (FileStream fs = new FileStream(filePath, FileMode.Open, FileAccess.Read))
                 {
                     items = (List<T>)serializer.Deserialize(fs) as List<T>;
 
@@ -37,7 +37,7 @@ public static class Tools
     {
         try
         {
-            using (FileStream fs = new FileStream(filePath, FileMode.OpenOrCreate))
+            using (FileStream fs = new FileStream(filePath, FileMode.Create))
             {
                 serializer.Serialize(fs, items);
             }

@@ -11,8 +11,8 @@ public static class Initialization
         s_dal.Product.Create(new Product(0, "סרט לשיער", Category.אקססוריז, 14.9, 30));
         s_dal.Product.Create(new Product(0, "מכנס דגמח", Category.בנים, 100, 10));
         s_dal.Product.Create(new Product(0, "אוברול", Category.תינוקות, 80, 70));
-        //s_dal.Product.Create(new Product(0, "חצאית קפלים", Category.בנות, 120, 50));
-        //s_dal.Product.Create(new Product(0, "חליפה 2 חלקים", Category.אלגנט, 250, 25));
+        s_dal.Product.Create(new Product(0, "חצאית קפלים", Category.בנות, 120, 50));
+        s_dal.Product.Create(new Product(0, "חליפה 2 חלקים", Category.אלגנט, 250, 25));
     }
 
     private static void createCustomers()

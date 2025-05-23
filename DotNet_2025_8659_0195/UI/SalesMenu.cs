@@ -85,10 +85,10 @@ namespace UI
         private void addSaleBtn_Click(object sender, EventArgs e)
         {
             Sale s = new Sale(
+                0,
                 int.Parse(idSaleProductInput.Text),
-                int.Parse(idSalePInput.Text),
-                int.Parse(minAmountSaleInput.Text),
-                double.Parse(fainalPriceInput.Text),
+                (int)(minAmountSaleInput.Value),
+                (double)(fainalPriceInput.Value),
                 isOnlyClubInput.Checked,
                 startSaleDateInput.Value,
                 lastSaleDateInput.Value);

@@ -37,12 +37,12 @@
     <FinishSale>2024-12-05T00:00:00</FinishSale>
   </sale>
   <sale>
-    <SaleId>1014</SaleId>
-    <ProductId>104</ProductId>
-    <MinAmount>4</MinAmount>
-    <SalePrice>200</SalePrice>
+    <SaleId>1016</SaleId>
+    <ProductId>111</ProductId>
+    <MinAmount>1</MinAmount>
+    <SalePrice>99</SalePrice>
     <ClubSale>true</ClubSale>
-    <StartSale>2025-05-20T10:01:50.0734734+03:00</StartSale>
-    <FinishSale>2024-12-05T00:00:00</FinishSale>
+    <StartSale>2025-05-23T15:10:58.5863607+03:00</StartSale>
+    <FinishSale>2025-05-23T15:10:58.5826134+03:00</FinishSale>
   </sale>
 </ArrayOfSale>
