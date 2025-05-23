@@ -25,6 +25,7 @@ namespace UI
             OrderForm orderForm = new OrderForm();
             orderForm.CustomerId = int.Parse(inputId.Text); // העברת תעודת הזהות
             orderForm.Show();
+            this.Close();
         }
     }
 }

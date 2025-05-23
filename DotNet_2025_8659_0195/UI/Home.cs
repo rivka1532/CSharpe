@@ -11,12 +11,14 @@ namespace UI
         {
             ManagerMenu formManager = new ManagerMenu();
             formManager.Show();
+            //this.Close();
         }
 
         private void seller_Click(object sender, EventArgs e)
         {
             OrderToCustomer orderToCustomer = new OrderToCustomer();
             orderToCustomer.Show();
+            //this.Close();
         }
 
         private void Home_Load(object sender, EventArgs e)

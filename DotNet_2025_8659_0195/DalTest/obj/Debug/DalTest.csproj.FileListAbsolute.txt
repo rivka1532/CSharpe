@@ -82,3 +82,20 @@ Z:\B\גליס רבקה\C#\DotNet2025_8659_0195\CSharpe\DotNet_2025_8659_0195\Dal
 Z:\B\גליס רבקה\C#\DotNet2025_8659_0195\CSharpe\DotNet_2025_8659_0195\DalTest\obj\Debug\DalTest.pdb
 Z:\B\גליס רבקה\C#\DotNet2025_8659_0195\CSharpe\DotNet_2025_8659_0195\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
 Z:\B\גליס רבקה\C#\DotNet2025_8659_0195\CSharpe\DotNet_2025_8659_0195\DalTest\obj\Debug\ref\DalTest.dll
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\bin\DalTest.exe
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\bin\DalTest.deps.json
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\bin\DalTest.runtimeconfig.json
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\bin\DalTest.dll
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\bin\DalTest.pdb
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\DalTest\obj\Debug\DalTest.csproj.AssemblyReference.cache
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\DalTest\obj\Debug\DalTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\DalTest\obj\Debug\DalTest.AssemblyInfoInputs.cache
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\DalTest\obj\Debug\DalTest.sourcelink.json
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\DalTest\obj\Debug\DalTest.csproj.Up2Date
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\DalTest\obj\Debug\DalTest.dll
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\DalTest\obj\Debug\refint\DalTest.dll
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\DalTest\obj\Debug\DalTest.pdb
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
+C:\Users\user1\c#\פרויקט\CSharpe\DotNet_2025_8659_0195\DalTest\obj\Debug\ref\DalTest.dll

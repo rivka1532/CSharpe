@@ -435,6 +435,16 @@
             label11.Size = new Size(110, 15);
             label11.TabIndex = 4;
             label11.Text = "סנן לפי מספר טלפון";
+            //
+            //Back
+            //
+            Button backButton = new Button();
+            backButton.Text = "חזור";
+            backButton.Name = "backButton";
+            backButton.Location = new Point(16, 16); // מיקום הכפתור, אפשר לשנות
+            backButton.Size = new Size(60, 30);
+            backButton.Click += BackButton_Click;
+            Controls.Add(backButton);
             // 
             // CustomersMenu
             // 

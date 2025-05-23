@@ -50,12 +50,14 @@ public class OrderImplementation : IOrder
 
     public void CalcTotalPrice(Order order)
     {
+        order.Price = 0;
         order.ProductsInOrder.ForEach(p => order.Price += p.FinalPrice);
     }
 
 
     public void CalcTotalPriceForProduct(ProductInOrder productInOrder)
     {
+        productInOrder.FinalPrice = 0;
         int count = productInOrder.QuantityInOrder;
         List<SaleInProduct> saleInProducts = SearchSaleForProduct(productInOrder);
         foreach (var item in saleInProducts)

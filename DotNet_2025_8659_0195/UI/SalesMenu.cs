@@ -75,6 +75,13 @@ namespace UI
             }
         }
 
+        private void BackButton_Click(object sender, EventArgs e)
+        {
+            ManagerMenu managerMenu = new ManagerMenu();
+            managerMenu.Show();
+            this.Close(); // סוגר את הטופס הנוכחי
+        }
+
         private void addSaleBtn_Click(object sender, EventArgs e)
         {
             Sale s = new Sale(

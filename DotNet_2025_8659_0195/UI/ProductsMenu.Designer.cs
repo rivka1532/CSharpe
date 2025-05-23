@@ -207,7 +207,7 @@ namespace UI
             // categoryUpdate
             // 
             categoryUpdate.FormattingEnabled = true;
-            categoryUpdate.Items.AddRange(new object[] { "Necklaces ", "Bracelets", "Rings    ", "Earrings  ", "Watches      " });
+            categoryUpdate.Items.AddRange(new object[] { "בנים", "בנות", "תינוקות", "אלגנט", "אקססוריז" });
             categoryUpdate.Location = new Point(150, 81);
             categoryUpdate.Margin = new Padding(3, 2, 3, 2);
             categoryUpdate.Name = "categoryUpdate";
@@ -308,7 +308,7 @@ namespace UI
             // categoryInput
             // 
             categoryInput.FormattingEnabled = true;
-            categoryInput.Items.AddRange(new object[] { "Necklaces ", "Bracelets", "Rings    ", "Earrings  ", "Watches      " });
+            categoryInput.Items.AddRange(new object[] { "בנים", "בנות", "תינוקות", "אלגנט", "אקססוריז" });
             categoryInput.Location = new Point(162, 57);
             categoryInput.Margin = new Padding(3, 2, 3, 2);
             categoryInput.Name = "categoryInput";
@@ -447,12 +447,22 @@ namespace UI
             // filterCategory
             // 
             filterCategory.FormattingEnabled = true;
-            filterCategory.Items.AddRange(new object[] { "Necklaces ", "Bracelets", "Rings    ", "Earrings  ", "Watches      " });
+            filterCategory.Items.AddRange(new object[]{ "בנים", "בנות", "תינוקות", "אלגנט", "אקססוריז" });
             filterCategory.Location = new Point(448, 41);
             filterCategory.Margin = new Padding(3, 2, 3, 2);
             filterCategory.Name = "filterCategory";
             filterCategory.Size = new Size(133, 23);
             filterCategory.TabIndex = 7;
+            //
+            //Back
+            //
+            Button backButton = new Button();
+            backButton.Text = "חזור";
+            backButton.Name = "backButton";
+            backButton.Location = new Point(16, 16); // מיקום הכפתור, אפשר לשנות
+            backButton.Size = new Size(60, 30);
+            backButton.Click += BackButton_Click;
+            Controls.Add(backButton);
             // 
             // ProductsMenu
             // 

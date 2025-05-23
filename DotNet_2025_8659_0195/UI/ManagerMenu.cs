@@ -21,18 +21,21 @@ namespace UI
         {
             CustomersMenu formCustomers = new CustomersMenu();
             formCustomers.Show();
+            this.Close();
         }
 
         private void products_Click(object sender, EventArgs e)
         {
             ProductsMenu formProducts = new ProductsMenu();
             formProducts.Show();
+            this.Close();
         }
 
         private void sales_Click(object sender, EventArgs e)
         {
             SalesMenu formSales = new SalesMenu();
             formSales.Show();
+            this.Close();
         }
     }
 }

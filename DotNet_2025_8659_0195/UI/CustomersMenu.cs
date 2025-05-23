@@ -114,6 +114,14 @@ namespace UI
             }
         }
 
+        private void BackButton_Click(object sender, EventArgs e)
+        {
+            ManagerMenu managerMenu = new ManagerMenu();
+            managerMenu.Show();
+            this.Close(); // סוגר את הטופס הנוכחי
+        }
+
+
         private void updateBtnCustomer_Click(object sender, EventArgs e)
         {
             int customerId = int.Parse(codeCustomerInput.Text);

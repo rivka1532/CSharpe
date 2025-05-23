@@ -34,17 +34,20 @@ namespace UI
             try
             {
                 RefreshProductList();
-                //Customer customer = _bl.ICustomer.Read(CustomerId);
-                //if (customer != null)
-                //{
-                //    helloName.Text = Convert.ToString(customer.NameCustomer);
-                //}
-                //else
-                //{
-                //    label4.Visible = false;
-                //    helloName.Visible = false;
-                //    //לסדר אם אין שם
-                //}
+                Customer customer = _bl.Customer.Read(CustomerId);
+                if (customer != null)
+                {
+                    helloName.Text = Convert.ToString(customer.Name);
+                    if (customer.Name == "")
+                    {
+                        helloName.Text = " לקוח" + Convert.ToString(customer.Id);
+                    }
+                }
+                else
+                {
+                    label4.Visible = false;
+                    helloName.Visible = false;
+                }
             }
             catch (Exception ex)
             {

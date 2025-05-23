@@ -506,6 +506,16 @@
             label11.Size = new Size(64, 15);
             label11.TabIndex = 6;
             label11.Text = "סנן לפי קוד";
+            //
+            //Back
+            //
+            Button backButton = new Button();
+            backButton.Text = "חזור";
+            backButton.Name = "backButton";
+            backButton.Location = new Point(16, 16); // מיקום הכפתור, אפשר לשנות
+            backButton.Size = new Size(60, 30);
+            backButton.Click += BackButton_Click;
+            Controls.Add(backButton);
             // 
             // SalesMenu
             // 

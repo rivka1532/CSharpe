@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfCustomer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Customer>
-    <Id>663</Id>
-    <Name>שמעונה סגל</Name>
-    <Address> ירושלים 15</Address>
-    <PhoneNumber>054566666</PhoneNumber>
-  </Customer>
-  <Customer>
-    <Id>747</Id>
-    <Name>יוספה לוי</Name>
-    <Address>מרומי שדה 8</Address>
-    <PhoneNumber>058566666</PhoneNumber>
-  </Customer>
-  <Customer>
     <Id>886</Id>
     <Name>אברהם שכטר</Name>
     <Address>מסילת יוסף 21</Address>
@@ -24,10 +12,34 @@
     <Address>נתיבות שלום 7</Address>
     <PhoneNumber>052566666</PhoneNumber>
   </Customer>
-</ArrayOfCustomer>>
-    <Id>320</Id>
-    <Name>יונה לנג</Name>
-    <Address>נתיבות שלום 7</Address>
-    <PhoneNumber>052566666</PhoneNumber>
+  <Customer>
+    <Id>123</Id>
+    <Name>אב</Name>
+    <Address>123</Address>
+    <PhoneNumber>123</PhoneNumber>
+  </Customer>
+  <Customer>
+    <Id>111</Id>
+    <Name>ג</Name>
+    <Address />
+    <PhoneNumber />
+  </Customer>
+  <Customer>
+    <Id>222</Id>
+    <Name>ב</Name>
+    <Address />
+    <PhoneNumber />
+  </Customer>
+  <Customer>
+    <Id>333</Id>
+    <Name>ג</Name>
+    <Address />
+    <PhoneNumber />
+  </Customer>
+  <Customer>
+    <Id>444</Id>
+    <Name />
+    <Address />
+    <PhoneNumber />
   </Customer>
 </ArrayOfCustomer>
