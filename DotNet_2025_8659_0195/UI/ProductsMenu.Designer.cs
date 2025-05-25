@@ -453,6 +453,8 @@ namespace UI
             filterCategory.Name = "filterCategory";
             filterCategory.Size = new Size(133, 23);
             filterCategory.TabIndex = 7;
+            filterCategory.SelectedIndexChanged += filterCategory_SelectedIndexChanged;
+
             //
             //Back
             //

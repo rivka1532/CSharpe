@@ -21,6 +21,22 @@ internal static class Tools
         //        sb.Append($"{prefix}{prop.Name} =\n{prop.GetValue(obj).ToStringProperty(prefix + "\t")}");
         //}
         //return sb.ToString();
+
+        //******************
+
+        //if (obj == null)
+        //    return $"{prefix}null";
+
+        //Type type = obj.GetType();
+        //var sb = new StringBuilder();
+
+        //foreach (FieldInfo field in type.GetFields())
+        //{
+        //    object? value = field.GetValue(obj);
+        //    sb.AppendLine($"{prefix}{field.Name} = {value}");
+        //}
+
+        //return sb.ToString();
         if (obj == null)
             return $"{prefix}null";
 
@@ -30,7 +46,19 @@ internal static class Tools
         foreach (FieldInfo field in type.GetFields())
         {
             object? value = field.GetValue(obj);
-            sb.AppendLine($"{prefix}{field.Name} = {value}");
+            if (value is System.Collections.IEnumerable enumerable && !(value is string))
+            {
+                sb.AppendLine($"{prefix}{field.Name} = [");
+                foreach (var item in enumerable)
+                {
+                    sb.AppendLine($"{prefix}  {item?.ToString()}");
+                }
+                sb.AppendLine($"{prefix}]");
+            }
+            else
+            {
+                sb.AppendLine($"{prefix}{field.Name} = {value}");
+            }
         }
 
         return sb.ToString();

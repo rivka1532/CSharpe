@@ -8,7 +8,7 @@ public class Sale
     public int ProductId;
     public int? MinAmount;
     public double SalePrice;
-    public bool? ClubSale;
+    public bool? ClubSale;  
     public DateTime? StartSale;
     public DateTime? FinishSale;
 

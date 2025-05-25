@@ -34,7 +34,16 @@ namespace UI
             try
             {
                 RefreshProductList();
-                Customer customer = _bl.Customer.Read(CustomerId);
+                Customer customer = null;
+                try
+                {
+                    customer = _bl.Customer.Read(CustomerId);
+                }
+                catch (BLExceptionIdNotExist)
+                {
+
+                }
+
                 if (customer != null)
                 {
                     helloName.Text = Convert.ToString(customer.Name);
@@ -47,11 +56,12 @@ namespace UI
                 {
                     label4.Visible = false;
                     helloName.Visible = false;
+
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show("אירעה שגיאה בעת שליפת המוצר: " + ex.Message,
+                MessageBox.Show("אירעה שגיאה בעת שליפת הלקוח: " + ex.Message,
                                 "שגיאה", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
@@ -95,13 +105,16 @@ namespace UI
         {
             try
             {
+
                 int productId = int.Parse(codeProductToAdd.Text);
                 int amount = (int)amountToOrderProduct.Value; // המרה מ-decimal ל-int
                                                               // כאן נוודא שהפרמטרים מתאימים למה שהמתודה מצפה
                 _bl.Order.AddProductToOrder(Order, productId, amount);
-                MessageBox.Show(Order.ProductsInOrder.Count.ToString());
+                //MessageBox.Show(Order.ProductsInOrder.Count.ToString());
                 RefreshProductsInOrderList();
                 MessageBox.Show("המוצר נוסף בהצלחה!", "הצלחה", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                codeProductToAdd.Text = "";
+                amountToOrderProduct.Value = 1;
             }
             catch (Exception ex)
             {
@@ -111,6 +124,7 @@ namespace UI
 
 
         }
+
         private void RefreshProductsInOrderList()
         {
             try
@@ -140,11 +154,17 @@ namespace UI
                                 "שגיאה", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
         private void RefreshProductList()
         {
             try
             {
                 List<Product?> products = _bl.Product.ReadAll();
+                List<Sale?> sales = _bl.Sale.ReadAll();
+                foreach (var item in sales)
+                {
+                    products.Find(p => p.ProductId == item.ProductId)?.SalesInProduct.Add(new SaleInProduct(item.SaleId, 0, item.SalePrice, item.ClubSale));
+                }
                 listProduct.Items.Clear();
 
                 foreach (var product in products)
@@ -209,6 +229,7 @@ namespace UI
                     {
                         // הסר את המוצר מהרשימה
                         Order.ProductsInOrder.Remove(productToRemove);
+                        Order.Price -= productToRemove.FinalPrice;
                         RefreshProductsInOrderList();
                         MessageBox.Show("המוצר הוסר מההזמנה.");
                     }

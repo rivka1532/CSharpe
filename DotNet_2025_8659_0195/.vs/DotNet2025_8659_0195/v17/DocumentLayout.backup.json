@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\user1\\c#\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\\CSharpe\\DotNet_2025_8659_0195\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{67435E7D-F5BF-4D3B-9AE2-35DDF9A8A81B}|BL\\BL.csproj|c:\\users\\user1\\c#\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\\csharpe\\dotnet_2025_8659_0195\\bl\\bo\\tools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67435E7D-F5BF-4D3B-9AE2-35DDF9A8A81B}|BL\\BL.csproj|solutionrelative:bl\\bo\\tools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A63A3AE7-1598-4CC7-8773-0A8A968F1160}|UI\\UI.csproj|c:\\users\\user1\\c#\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\\csharpe\\dotnet_2025_8659_0195\\ui\\productsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A63A3AE7-1598-4CC7-8773-0A8A968F1160}|UI\\UI.csproj|solutionrelative:ui\\productsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A63A3AE7-1598-4CC7-8773-0A8A968F1160}|UI\\UI.csproj|c:\\users\\user1\\c#\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\\csharpe\\dotnet_2025_8659_0195\\ui\\productsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A63A3AE7-1598-4CC7-8773-0A8A968F1160}|UI\\UI.csproj|solutionrelative:ui\\productsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{67435E7D-F5BF-4D3B-9AE2-35DDF9A8A81B}|BL\\BL.csproj|c:\\users\\user1\\c#\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\\csharpe\\dotnet_2025_8659_0195\\bl\\bo\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67435E7D-F5BF-4D3B-9AE2-35DDF9A8A81B}|BL\\BL.csproj|solutionrelative:bl\\bo\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,40 +23,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Tools.cs",
-              "DocumentMoniker": "C:\\Users\\user1\\c#\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\\CSharpe\\DotNet_2025_8659_0195\\BL\\BO\\Tools.cs",
-              "RelativeDocumentMoniker": "BL\\BO\\Tools.cs",
-              "ToolTip": "C:\\Users\\user1\\c#\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\\CSharpe\\DotNet_2025_8659_0195\\BL\\BO\\Tools.cs*",
-              "RelativeToolTip": "BL\\BO\\Tools.cs*",
-              "ViewState": "AgIAACwAAAAAAAAAAAAAADQAAABTAAAAAAAAAA==",
+              "Title": "Sale.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\c#\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\\CSharpe\\DotNet_2025_8659_0195\\BL\\BO\\Sale.cs",
+              "RelativeDocumentMoniker": "BL\\BO\\Sale.cs",
+              "ToolTip": "C:\\Users\\user1\\c#\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\\CSharpe\\DotNet_2025_8659_0195\\BL\\BO\\Sale.cs*",
+              "RelativeToolTip": "BL\\BO\\Sale.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T12:52:50.433Z",
+              "WhenOpened": "2025-05-24T20:46:47.288Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductsMenu.cs",
-              "DocumentMoniker": "C:\\Users\\user1\\c#\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\\CSharpe\\DotNet_2025_8659_0195\\UI\\ProductsMenu.cs",
-              "RelativeDocumentMoniker": "UI\\ProductsMenu.cs",
-              "ToolTip": "C:\\Users\\user1\\c#\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\\CSharpe\\DotNet_2025_8659_0195\\UI\\ProductsMenu.cs",
-              "RelativeToolTip": "UI\\ProductsMenu.cs",
-              "ViewState": "AgIAAMYAAAAAAAAAAAAAAMwAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T12:20:05.384Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductsMenu.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\user1\\c#\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\\CSharpe\\DotNet_2025_8659_0195\\UI\\ProductsMenu.cs",
-              "RelativeDocumentMoniker": "UI\\ProductsMenu.cs",
-              "ToolTip": "C:\\Users\\user1\\c#\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8\\CSharpe\\DotNet_2025_8659_0195\\UI\\ProductsMenu.cs [Design]",
-              "RelativeToolTip": "UI\\ProductsMenu.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T12:20:02.322Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }

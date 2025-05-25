@@ -10,12 +10,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace UI
 {
     public partial class ProductsMenu : Form
     {
         private static IBl _bl = BlApi.Factory.Get();
+
         public ProductsMenu()
         {
             InitializeComponent();
@@ -43,7 +45,6 @@ namespace UI
             managerMenu.Show();
             this.Close(); // סוגר את הטופס הנוכחי
         }
-
 
         private void addProduct_Click(object sender, EventArgs e)
         {
@@ -125,6 +126,7 @@ namespace UI
                 MessageBox.Show("אירעה שגיאה בעת עדכון המוצר: " + ex.Message, "שגיאה", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
         private void displayProducts_Click(object sender, EventArgs e)
         {
             try
@@ -192,6 +194,31 @@ namespace UI
 
         }
 
+        private void filterCategory_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string selectedValue = filterCategory.SelectedItem.ToString();
+            List<Product> products = _bl.Product.ReadAll();
+            var filtered = products.Where(p => p.category.ToString().Contains(selectedValue)).ToList();
+            productsList.Items.Clear();
+            if (filtered.Count == 0 && !string.IsNullOrEmpty(selectedValue))
+                productsList.Items.Add("לא נמצאו מוצרים.");
+            else
+            {
+                foreach (var product in filtered)
+                {
+                    if (product != null)
+                    {
+                        var productDetails = product.ToString() + "\n----------------------------";
+                        // פיצול למיתרים ואז הוספה לכל פריט ברשימה
+                        var productLines = productDetails.Split("\n");
+                        foreach (var line in productLines)
+                        {
+                            productsList.Items.Add(line);
+                        }
+                    }
+                }
+            }
+        }
 
         private void RefreshProductList()
         {
@@ -203,6 +230,11 @@ namespace UI
                 }
 
                 List<Product?> products = _bl.Product.ReadAll();
+                List<Sale?> sales = _bl.Sale.ReadAll();
+                foreach (var item in sales)
+                {
+                    products.Find(p => p.ProductId == item.ProductId)?.SalesInProduct.Add(new SaleInProduct(item.SaleId, 0, item.SalePrice, item.ClubSale));
+                }
                 productsList.Items.Clear();
 
                 foreach (var product in products)

@@ -37,6 +37,7 @@ namespace UI
                                 "שגיאה", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
         private void RefreshCustomerList()
         {
             try
@@ -64,7 +65,6 @@ namespace UI
                                 "שגיאה", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
 
         private void detailsCustomer_Click(object sender, EventArgs e)
         {
@@ -155,7 +155,6 @@ namespace UI
             this.Close(); // סוגר את הטופס הנוכחי
         }
 
-
         private void updateBtnCustomer_Click(object sender, EventArgs e)
         {
             int customerId = int.Parse(codeCustomerInput.Text);
@@ -242,6 +241,7 @@ namespace UI
         //                        "שגיאה", MessageBoxButtons.OK, MessageBoxIcon.Error);
         //    }
         //}
+
         private void showDetailsCustomer_Click(object sender, EventArgs e)
         {
             try

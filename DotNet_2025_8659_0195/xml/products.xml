@@ -42,4 +42,11 @@
     <Price>100</Price>
     <QuantityInStock>8</QuantityInStock>
   </Product>
+  <Product>
+    <ProductId>118</ProductId>
+    <ProductName>צמיד</ProductName>
+    <category>אקססוריז</category>
+    <Price>10</Price>
+    <QuantityInStock>20</QuantityInStock>
+  </Product>
 </ArrayOfProduct>
