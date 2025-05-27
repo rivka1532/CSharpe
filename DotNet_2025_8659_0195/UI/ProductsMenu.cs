@@ -233,7 +233,7 @@ namespace UI
                 List<Sale?> sales = _bl.Sale.ReadAll();
                 foreach (var item in sales)
                 {
-                    products.Find(p => p.ProductId == item.ProductId)?.SalesInProduct.Add(new SaleInProduct(item.SaleId, 0, item.SalePrice, item.ClubSale));
+                    products.Find(p => p.ProductId == item.ProductId)?.SalesInProduct.Add(new SaleInProduct(item.SaleId, item.MinAmount, item.SalePrice, item.ClubSale));
                 }
                 productsList.Items.Clear();
 

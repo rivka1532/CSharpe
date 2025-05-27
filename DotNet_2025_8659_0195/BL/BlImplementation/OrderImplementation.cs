@@ -97,14 +97,17 @@ public class OrderImplementation : IOrder
     public List<SaleInProduct> SearchSaleForProduct(ProductInOrder productInOrder, bool? isMemberClub = false)
     {
         List<SaleInProduct> saleInProducts
-            = _dal.Sale.ReadAll(s => s.ProductId == productInOrder.ProductId).Where(s => s.StartSale <= DateTime.Now && s.FinishSale >= DateTime.Now
-            && productInOrder.QuantityInOrder >= s.MinAmount)
-            .Select(s => new SaleInProduct { IsForClubMembers = s.ClubSale, SaleId = s.SaleId, Price = (double)s.SalePrice, Quantity = productInOrder.QuantityInOrder }).ToList();
-        if (isMemberClub == false)
+            = _dal.Sale.ReadAll(s => s.ProductId == productInOrder.ProductId)
+                .Where(s => s.StartSale <= DateTime.Now && s.FinishSale >= DateTime.Now && productInOrder.QuantityInOrder >= s.MinAmount)
+                .Select(s => new SaleInProduct { IsForClubMembers = s.ClubSale, SaleId = s.SaleId, Price = (double)s.SalePrice, Quantity = productInOrder.QuantityInOrder })
+                .ToList();
+
+        if (isMemberClub != true)
         {
-            saleInProducts = productInOrder.SalesInProduct.FindAll(s => s.IsForClubMembers == false).ToList();
+            saleInProducts = saleInProducts.Where(s => s.IsForClubMembers == false).ToList();
         }
         return saleInProducts;
     }
+
 }
 

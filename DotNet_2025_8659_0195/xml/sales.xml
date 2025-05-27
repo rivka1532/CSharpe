@@ -45,4 +45,22 @@
     <StartSale>2025-05-23T15:10:58.5863607+03:00</StartSale>
     <FinishSale>2025-05-23T15:10:58.5826134+03:00</FinishSale>
   </sale>
+  <sale>
+    <SaleId>1017</SaleId>
+    <ProductId>113</ProductId>
+    <MinAmount>2</MinAmount>
+    <SalePrice>70</SalePrice>
+    <ClubSale>true</ClubSale>
+    <StartSale>2025-05-27T12:12:47.0434256+03:00</StartSale>
+    <FinishSale>2025-05-27T12:12:47.041108+03:00</FinishSale>
+  </sale>
+  <sale>
+    <SaleId>1018</SaleId>
+    <ProductId>113</ProductId>
+    <MinAmount>2</MinAmount>
+    <SalePrice>70</SalePrice>
+    <ClubSale>false</ClubSale>
+    <StartSale>2025-05-27T12:25:56.8380708+03:00</StartSale>
+    <FinishSale>2025-05-28T12:25:56.833</FinishSale>
+  </sale>
 </ArrayOfSale>
